@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: auto;
+        }
+
+        .box {
+            background-color: gainsboro;
+
+        }
+
+        p {
+            margin-bottom: 1px;
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .box1 {
+            width: 550px;
+            background-color: #7EE5DA;
+            margin-top: 2px;
+            padding: 1px;
+            height: 80px;
+
+        }
+
+        .box2 {
+            width: 200px;
+            background-color: #70CCC2;
+            margin-top: 2px;
+            padding: 1px;
+            height: 80px;
+
+        }
+
+        .box3 {
+            width: 600px;
+            background-color: #62B3AA;
+            margin-top: 2px;
+            height: 80px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="imgDiv">
+            <img class="img" src="google.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="box">
+                <p>Search the web using Google!</p>
+                <input type="text" name="q" value="" size="40"><br>
+                <div class="button">
+                    <button>Google Search</button>
+                    <button>I'am feeling lucky</button>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="container1">
+                <div class="box1">
+                    <p>Special Searches</p>
+                    <a href="https://web.archive.org/web/19990224014327/http://www.google.com/stanford">Stanford
+                        Search</a><br>
+                    <a href="https://web.archive.org/web/19990221231654/http://www.google.com/linux">Linux
+                        Search</a><br>
+                </div>
+
+
+                <div class="box2">
+                    <a class="link"
+                        href="https://web.archive.org/web/19990221212930if_/http://www.google.com/help.html">Help!</a><br>
+                    <a class="link"
+                        href="https://web.archive.org/web/19990427105230if_/http://www.google.com/about.html">About
+                        Google!</a><br>
+                    <a class="link"
+                        href="https://web.archive.org/web/19990221202430if_/http://www.google.com/company.html">Company
+                        Info</a><br>
+                    <a class="link"
+                        href="https://web.archive.org/web/19990224043535if_/http://www.google.com/stickers.html">Google!
+                        Logos</a><br>
+                </div>
+
+
+                <div class="box3">
+                    <span>Get Google! <br> updates monthly: <br></span>
+                    <input type="text" name="emailaddr" value="your e-mail"> <br>
+                    <button>Subscribe</button>
+                    <a href="#">Archive</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="text-align: center;">
+            <p>Copyright ©1998 Google Inc.</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
